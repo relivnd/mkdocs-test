@@ -10,6 +10,5 @@ frontend:
       commands:
         - mkdocs build
   artifacts:
-    baseDirectory: site
     files:
-      - "**/*"
+      - "site/*"
