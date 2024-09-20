@@ -9,3 +9,4 @@ frontend:
         - mkdocs build
   artifacts:
     baseDirectory: site
+    files: "**/*"
