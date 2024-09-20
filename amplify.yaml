@@ -3,6 +3,8 @@ frontend:
   phases:
     preBuild:
       commands:
+        - echo "current commit sha:"
+        - git rev-parse HEAD
         - pip install mkdocs
     build:
       commands:
