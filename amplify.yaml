@@ -1,0 +1,11 @@
+version: 0.1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - pip install mkdocs
+    build:
+      commands:
+        - mkdocs build
+  artifacts:
+    baseDirectory: site
